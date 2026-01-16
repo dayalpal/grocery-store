@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auth Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LOGIN -->
+    <div class="form-box" id="login">
+        <h2>Login</h2>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button>Login</button>
+        </form>
+        <p>
+            <a href="#forgot">Forgot Password?</a><br>
+            Don’t have an account? <a href="#register">Register</a>
+        </p>
+    </div>
+
+    <!-- REGISTER -->
+    <div class="form-box" id="register">
+        <h2>Register</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <button>Register</button>
+        </form>
+        <p>Already have an account? <a href="#login">Login</a></p>
+    </div>
+
+    <!-- FORGOT PASSWORD -->
+    <div class="form-box" id="forgot">
+        <h2>Forgot Password</h2>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button>Reset Password</button>
+        </form>
+        <p><a href="#login">Back to Login</a></p>
+    </div>
+
+</div>
+
+</body>
+</html>
